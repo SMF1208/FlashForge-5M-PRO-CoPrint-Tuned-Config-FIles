@@ -26,4 +26,12 @@ Before you fully deploy this config:
 
 If you wish to setup OctoEverywhere, use a raspi and follow their instructions for a companion device.  Once youve got it installed on your Pi you should be able to select your moonraker port when finalizing the config.  It should then just work out of the box.  I am planning on writing a separate guide for that as right now there is no native remote monitoring for this setup.
 
+If you wish to disable the MIDI melodies, review the cp_macro.cfg file.  I have added comments on what lines to remove to disable this.
+
+The MIDI function works by storing all .mid files in /root/printer_data/config/MIDI.  If you have a custom melody you would like to add, import it into the MIDI folder.  
+
+The command to play a MIDI file is:
+PLAY_MIDI FILE="/root/printer_data/config/MIDI/YOURMIDIFILENAMEHERE.mid"
+^^This line can also be added to any macro to engadge the buzzer at that point.
+
 I am going to continue to update this as I work out the final kinks.  Currently there are few things left, including potentially getting the Forge-X mod to work.
