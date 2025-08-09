@@ -5,7 +5,7 @@ Flash Forge Adventurer 5M PRO W/Stock Speed Support/Timelapse Support/Octoeveryw
 This is a set of config files for the Flash Forge 5M PRO 3D Printer.  These configs are meant to be used in conjuction with the CoPrint KCM kit.
 
 In the config files you will find:
-- A custom auto load_filament command created by discord user Mjfsch on the CoPrint discord.  ALL CREDIT TO THEM FOR THE MACRO AND EVERYTHING ABOUT IT
+- A custom auto load_filament command created by discord user Mjfsch on the CoPrint discord.
 - A MIDI folder containing MIDI melodies that can be played on print action (see macro.cfg)
 - A modified [probe] entry in the printer.cfg (keep this at 0 for now)
 - An entry for a Z offset in the Start_Print command under cp_macro.cfg (Enter your Z_offset here, you will see I have a few in there for different materials commented out)
