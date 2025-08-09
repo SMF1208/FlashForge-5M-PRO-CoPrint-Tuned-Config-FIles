@@ -6,7 +6,7 @@ This is a set of config files for the Flash Forge 5M PRO 3D Printer.  These conf
 
 In the config files you will find:
 - A custom auto load_filament command created by discord user Mjfsch on the CoPrint discord.
-- A MIDI folder containing MIDI melodies that can be played on print action (see macro.cfg)
+- A MIDI folder containing MIDI melodies that can be played on print action (see cp_macro.cfg)
 - A modified [probe] entry in the printer.cfg (do not modify)
 - An entry for a Z offset in the Start_Print command under cp_macro.cfg (Enter your Z_offset here, you will see I have a few in there for different materials commented out)
 - PiD Calibrations (my own)
