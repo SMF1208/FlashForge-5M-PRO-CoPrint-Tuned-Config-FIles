@@ -1,5 +1,12 @@
 # FlashForge-5M-PRO-CoPrint-Tuned-Config-FIles
 
+UPDATE 10/21/25:
+- Fixed an issue with the runout sensor causing the print to pause when changing colors
+- Added a custom bed mesh macro to aid in accuracy
+- Modified the KCM extruders rotation distance
+
+============================================================================================
+
 Flash Forge Adventurer 5M PRO W/Stock Speed Support/Timelapse Support/Octoeverywhere support
 
 This is a set of config files for the Flash Forge 5M PRO 3D Printer.  These configs are meant to be used in conjuction with the CoPrint KCM kit.
