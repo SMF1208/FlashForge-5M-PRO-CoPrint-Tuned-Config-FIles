@@ -39,5 +39,3 @@ The MIDI function works by storing all .mid files in /root/printer_data/config/M
 The command to play a MIDI file is:
 PLAY_MIDI FILE="/root/printer_data/config/MIDI/YOURMIDIFILENAMEHERE.mid"
 ^^This line can also be added to any macro to engadge the buzzer at that point.
-
-THE FORGE X MOD DOES NOT WORK WITH THE KCM KIT - There are issues with the firmware on the coprint equipment
